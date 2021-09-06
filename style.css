@@ -72,10 +72,13 @@ nav {
     margin-left: 32px;
 }
 .figuras {
-    padding: 0 ;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     font-size: 35px;
     letter-spacing: 10px;
-    display: flex;
-    color: #fff;
-    margin: 40% auto;   
 }
